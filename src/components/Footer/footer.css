@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    background-color: #0e1212;
+    color: #BBBBBB;
+    font-family: 'Lato', sans-serif;
+    font-weight: medium;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1vw;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer{
+        font-size: 2vw;
+    }
+}

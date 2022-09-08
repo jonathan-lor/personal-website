@@ -1,0 +1,213 @@
+.Home {
+    text-align: center;
+    margin: 0;
+  }
+
+  .text {
+    color: #A91079;
+  }
+
+  .resumeNavLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #BBBBBB
+  }
+
+  .resumeNavLink:hover {
+    color: #A91079;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .div1, .div2, .div3 {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .div1 {
+    background-color: #0e1212;
+    height: 75vh;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+
+  .arrowDownContainer {
+    color: #BBBBBB;
+    padding-bottom: 5vh;
+    position: relative;
+  }
+
+  .header {
+    color: #A91079;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 0;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 5vw;
+  }
+  
+  .contentContainer {
+    background-color: #0e1212;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 5vw;
+    overflow-x: hidden;
+  }
+
+  .subContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 3vw;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform-origin: left;
+  }
+
+  .reveal {
+    visibility: hidden;
+    position: relative;
+    max-width: 60vh;
+    max-height: 60vh;
+    overflow: hidden;
+  }
+
+
+  .box {
+    background: #A91079;
+    width: 1vw;
+    height: 50vw;
+  }
+
+  .cursorH {
+    visibility: hidden;
+  }
+
+  .descriptionContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    color: #A91079;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+  .headerDescCursorContainer {
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  .descHeaderText {
+    color: #A91079;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+  .headerBodyCursorContainer {
+    font-size: 2.5vw;
+    text-align: left;
+    margin-bottom: 2vw;
+  }
+
+  .descBodyText {
+    color: #A91079;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+
+  .div3 {
+    background-color: aqua;
+    justify-content: center;
+  }
+
+  .socialContainer{
+    color: #BBBBBB;
+    display: flex;
+    flex-direction: column;
+    margin-right: 9.5vh;
+    z-index: 5;
+  }
+
+  .socialLinks1, .socialLinks2, .socialLinks3, .socialLinks4 {
+    margin-top: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #BBBBBB;
+  }
+
+  .socialLinks1:hover {
+    color: #A91079;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .socialLinks2:hover {
+    color: #A91079;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .socialLinks3:hover {
+    color: #A91079;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .socialLinks4:hover {
+    color: #A91079;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .picture {
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+    z-index: 100;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .socialContainer {
+       margin-right: 4vh;
+    }
+    .contentContainer {
+
+      margin-left: 3vw;
+      margin-right: 3vw;
+
+    }
+    .box {
+      background: #A91079;
+      width: 5vw;
+      height: 50vw;
+    }
+    .headerDescCursorContainer {
+      font-size: 10vw;
+      text-align: left;
+    }
+    .descHeaderText {
+      color: #A91079;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      font-size: 10vw;
+    }
+    .headerBodyCursorContainer {
+      font-size: 4vw;
+      text-align: left;
+      margin-bottom: 2vw;
+    }
+    .descBodyText {
+      color: #A91079;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      font-size: 4vw;
+    }
+  } 

@@ -1,0 +1,16 @@
+.div1About {
+  background-color: #0e1212;
+  height: 85vh;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  }
+
+  .headerAbout {
+    color: #A91079;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 0;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 10vw;
+  }

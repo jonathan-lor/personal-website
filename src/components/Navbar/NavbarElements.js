@@ -39,7 +39,7 @@ export const NavLogo = styled(Link)`
     display: flex;
     align-items: center;
     margin-left: 24px;
-    padding-bottom: 16px;
+    padding-bottom: 36px;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -76,7 +76,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
-    padding-bottom: 16px;
+    padding-bottom: 36px;
 `;
 
 export const NavLinks = styled(Link)`

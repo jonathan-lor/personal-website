@@ -79,9 +79,9 @@ function About() {
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: bar,
-                    scrub: 1,
-                    start: "top 80%",
-                    end: "top 70%",
+                    //scrub: 1,
+                    //start: "top 90%",
+                    //end: "top 80%",
                     //markers: true
                 }
             });
@@ -100,11 +100,7 @@ function About() {
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: container,
-                    //scrub: 1,
-                    //start: "top 60%",
-                    //end: "top 50%",
-                    //markers: true,
-                    toggleActions: "restart none none reset"
+                    //toggleActions: "restart none none reset"
                 }
             });
             tl.set(container, { autoAlpha: 1 });
@@ -155,11 +151,7 @@ function About() {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: h1,
-                //scrub: 1,
-                //start: "top 80%",
-                //end: "top 40%",
-                //markers: true
-                toggleActions: "restart none none reset",
+                //toggleActions: "restart none none reset",
                 ease: "none"
             }
         });
@@ -195,6 +187,10 @@ function About() {
     const b24Ref = useRef();
     const b24CursorRef = useRef();
 
+    const h3Ref = useRef();
+    const h3CursorRef = useRef();
+
+
     useEffect(() => {
 
         const h2 = h2Ref.current;
@@ -208,15 +204,14 @@ function About() {
         const b24 = b24Ref.current;
         const b24Cursor = b24CursorRef.current;
 
+        const h3 = h3Ref.current;
+        const h3Cursor = h3CursorRef.current;
+
 
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: h2,
-                //scrub: 1,
-                //start: "top 80%",
-                //end: "top 40%",
-                //markers: true
-                toggleActions: "restart none none reset",
+                //toggleActions: "restart none none reset",
                 ease: "none"
             }
         });
@@ -235,34 +230,13 @@ function About() {
         tl.to(b23Cursor, { duration: 1, opacity: 0 })
         tl.to(b24Cursor, { autoAlpha: 1 });
         tl.to(b24, { duration: 1, text: "using discord.py and osu!api v2, i made a bot that concisely displays player profile and score info upon request in a discord text channel!" })
-
+        tl.to(b24Cursor, { duration: 1, opacity: 0 })
+        tl.to(h3Cursor, { autoAlpha: 1 });
+        tl.to(h3, { duration: 1, text: "more projects on the way!" })
     }, [])
 
     //text reveal for body and header of each image for osu stats bot
 
-    const h3Ref = useRef();
-    const h3CursorRef = useRef();
-
-
-    useEffect(() => {
-
-        const h3 = h3Ref.current;
-        const h3Cursor = h3CursorRef.current;
-
-
-
-        let tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: h3,
-                toggleActions: "restart none none reset",
-                ease: "none"
-            }
-        });
-
-        tl.to(h3Cursor, { autoAlpha: 1 });
-        tl.to(h3, { duration: 1, text: "more projects on the way!" })
-
-    }, [])
 
     return (
         <div>

@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
     background: linear-gradient(to bottom, #0e1212 70%, rgba(0,0,0,0) 100%);
-    height: 80px;
+    height: 100px;
     /* margin-top: -80px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -76,6 +76,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+    padding-bottom: 16px;
 `;
 
 export const NavLinks = styled(Link)`

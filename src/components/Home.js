@@ -46,7 +46,19 @@ function Home() {
     const cursorRef = useRef();
     const textRef = useRef();
 
-    const words = ["hi, i'm jonathan lor!", "i'm a cs student @ texas a&m,", "an aspiring ui/ux designer,", "a front-end geek,", "an entrepeneur,", "an austinite,", "a 'gym bro',", "a closeted dubstep fan,", "a self-proclaimed pro chef,", "and lots more!", "welcome to my website! :)"];
+    const words = [
+        "hi, i'm jonathan lor!",
+        "i'm a cs student @ texas a&m,",
+        "an aspiring ui/ux designer,",
+        "a front-end geek,",
+        "an entrepeneur,",
+        "an austinite,",
+        "a 'gym bro',",
+        "a huuuge worship music fan,",
+        "a self-proclaimed pro chef,",
+        "and lots more!",
+        "welcome to my website! :)"
+    ];
 
     useEffect(() => {
         gsap.to(cursorRef.current, { opacity: 0, ease: "power2.inOut", repeat: -1 })
@@ -86,14 +98,14 @@ function Home() {
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: bar,
-                    scrub: 1,
-                    start: "top 80%",
-                    end: "top 70%",
+                    //scrub: 1,
+                    //start: "top 90%",
+                    //end: "top 60%",
                     //markers: true
                 }
             });
             tl.fromTo(bar, { height: 0 }, {
-                duration: 1.5,
+                duration: 1,
                 height: "auto",
                 ease: "Power2.out"
             });
@@ -107,7 +119,9 @@ function Home() {
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: container,
-                    toggleActions: "restart none none reset"
+                    //start: "top 90%",
+                    //end: "top 60%",
+                    //toggleActions: "restart none none reset"
                 }
             });
             tl.set(container, { autoAlpha: 1 });
@@ -158,7 +172,7 @@ function Home() {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: h2,
-                toggleActions: "restart none none reset",
+                //toggleActions: "restart none none reset",
                 ease: "none"
             }
         });
@@ -210,7 +224,7 @@ function Home() {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: h1,
-                toggleActions: "restart none none reset",
+                //toggleActions: "restart none none reset",
                 ease: "none"
             }
         });
@@ -222,7 +236,7 @@ function Home() {
         tl.to(b11, { duration: 1, text: "from 2020-2022, i served as a counselor and co-chair with impact." })
         tl.to(b11Cursor, { duration: 1, opacity: 0 })
         tl.to(b12Cursor, { autoAlpha: 1 });
-        tl.to(b12, { duration: 1, text: "impact is a ministry dedicated to connecting incoming texas a&m students to churches and strong christian community in bryan/college station." })
+        tl.to(b12, { duration: 1.75, text: "impact is a ministry dedicated to connecting incoming texas a&m students to churches and strong christian community in bryan/college station." })
         tl.to(b12Cursor, { duration: 1, opacity: 0 })
         tl.to(b13Cursor, { autoAlpha: 1 });
         tl.to(b13, { duration: 1, text: "as a counselor, i worked alongside my peers to guide and support the incoming students at and beyond retreat." })
@@ -257,7 +271,7 @@ function Home() {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: h3,
-                toggleActions: "restart none none reset",
+                //toggleActions: "restart none none reset",
                 ease: "none"
             }
         });

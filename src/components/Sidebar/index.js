@@ -12,7 +12,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SideBtnWrap>
                     <SidebarRoute to="/">home_</SidebarRoute>
                     <SidebarRoute to="/Projects">my projects_</SidebarRoute>
-                    <SidebarRouteResume ><a class="resumeNavLink" href="https://drive.google.com/file/d/1SzN4ntjG-BO0CSsWghwdUjtMkZ21eC-O/view?usp=sharing">my resume_</a></SidebarRouteResume>
+                    <SidebarRouteResume ><a class="resumeNavLink" href="https://drive.google.com/file/d/1HRBRGJegofx4BhVk1L4WDSYlML2d9TeW/view?usp=sharing">my resume_</a></SidebarRouteResume>
                     <SidebarSocials>
                         <a href="https://www.linkedin.com/in/jonathanlor/">
                             <FaLinkedinIn class="socialLinks1" size={24} />

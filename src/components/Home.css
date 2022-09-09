@@ -33,8 +33,9 @@
 
   .arrowDownContainer {
     color: #BBBBBB;
-    padding-bottom: 5vh;
+    //padding-bottom: 5vh;
     position: relative;
+    height: 25vh;
   }
 
   .header {
@@ -44,6 +45,7 @@
     margin-left: 10vw;
     font-weight: bold;
     font-size: 5vw;
+    text-align: left;
   }
   
   .contentContainer {
@@ -73,7 +75,7 @@
     transform-origin: left;
   }
 
-  .reveal {
+   .reveal, .reveal1, .reveal2, .reveal3 {
     visibility: hidden;
     position: relative;
     max-width: 60vh;

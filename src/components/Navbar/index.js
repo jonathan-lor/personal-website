@@ -21,7 +21,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="/Projects">my projects_</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <ResumeLink><a class="resumeNavLink" href="https://drive.google.com/file/d/1HRBRGJegofx4BhVk1L4WDSYlML2d9TeW/view?usp=sharing">my resume_</a></ResumeLink>
+                            <ResumeLink><a class="resumeNavLink" href="https://drive.google.com/file/d/1vGVQUKEJnhMLX0tfu1_3ig0e6B1I1Jzo/view?usp=sharing">my resume_</a></ResumeLink>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

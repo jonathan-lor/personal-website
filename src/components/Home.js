@@ -286,7 +286,7 @@ function Home() {
         tl.to(b32, { duration: 1, text: "in the spring 2022 semester, i taught react to an awesome group of freshmen and sophomores!" })
         tl.to(b32Cursor, { duration: 1, opacity: 0 })
         tl.to(b33Cursor, { autoAlpha: 1 });
-        tl.to(b33, { duration: 1, text: "in the fall 2022 semester, i'm excited to continue my teaching role by leading workshops on mobile development!" })
+        tl.to(b33, { duration: 1, text: "in the fall 2022 semester, i'm excited to continue my teaching role by leading workshops on iOS development!" })
     }, [])
     //text reveal for body and header of each image for acc
 

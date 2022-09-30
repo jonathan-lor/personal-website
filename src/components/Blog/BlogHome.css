@@ -1,0 +1,14 @@
+.postLinkContainer {
+    text-align: left;
+}
+
+.postLink {
+    color: #03dAC6;
+    font-size: 5vw;
+}
+
+.postHeaderText {
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 5vw;
+}

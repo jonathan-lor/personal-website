@@ -1,0 +1,65 @@
+body {
+    width:100%;
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y: visible;
+}
+
+
+
+.postDiv {
+    background-color: #0e1212;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.postHeaderText {
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+.postBodyText {
+    color: #d3d3d3;
+    font-weight: normal;
+  }
+
+.alignLeft {
+    text-align: left;
+}
+
+
+.contentContainerBlog {
+    background-color: #0e1212;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    position: relative;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding-bottom: 5vw;
+    overflow-x: hidden;
+  }
+
+
+.subContainerBlog {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 3vw;
+    //margin-bottom: 8vh;
+  }
+
+figcaption {
+    color: #d3d3d3;
+    text-align: left;
+}
+
+  @media only screen and (max-width: 500px) {
+    .contentContainerBlog {
+
+        margin-left: 5vw;
+        margin-right: 5vw;
+  
+      }
+  }

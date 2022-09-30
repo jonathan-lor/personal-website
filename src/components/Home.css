@@ -4,17 +4,17 @@
   }
 
   .text {
-    color: #A91079;
+    color: #03dAC6;
   }
 
   .resumeNavLink {
     text-decoration: none;
     font-weight: bold;
-    color: #BBBBBB
+    color: #d3d3d3
   }
 
   .resumeNavLink:hover {
-    color: #A91079;
+    color: #03dAC6;
     transition: all 0.3s ease-in-out;
   }
   
@@ -32,14 +32,14 @@
   }
 
   .arrowDownContainer {
-    color: #BBBBBB;
+    color: #d3d3d3;
     //padding-bottom: 5vh;
     position: relative;
     height: 25vh;
   }
 
   .header {
-    color: #A91079;
+    color: #03dAC6;
     font-family: 'Lato', sans-serif;
     padding-bottom: 0;
     margin-left: 10vw;
@@ -73,6 +73,10 @@
     width: 100%;
     object-fit: cover;
     transform-origin: left;
+
+    max-width: 60vh;
+    max-height: 60vh;
+    border-left: 8px solid #03dAC6;
   }
 
    .reveal, .reveal1, .reveal2, .reveal3 {
@@ -85,7 +89,7 @@
 
 
   .box {
-    background: #A91079;
+    background: #03dAC6;
     width: 1vw;
     height: 50vw;
   }
@@ -98,7 +102,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
-    color: #A91079;
+    color: #03dAC6;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
   }
@@ -109,7 +113,7 @@
   }
 
   .descHeaderText {
-    color: #A91079;
+    color: #03dAC6;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 4vw;
@@ -122,7 +126,7 @@
   }
 
   .descBodyText {
-    color: #A91079;
+    color: #d3d3d3;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 2.5vw;
@@ -134,7 +138,7 @@
   }
 
   .socialContainer{
-    color: #BBBBBB;
+    color: #d3d3d3;
     display: flex;
     flex-direction: column;
     margin-right: 9.5vh;
@@ -145,26 +149,26 @@
     margin-top: 25px;
     margin-left: 8px;
     margin-right: 8px;
-    color: #BBBBBB;
+    color: #d3d3d3;
   }
 
   .socialLinks1:hover {
-    color: #A91079;
+    color: #03dAC6;
     transition: all 0.3s ease-in-out;
   }
 
   .socialLinks2:hover {
-    color: #A91079;
+    color: #03dAC6;
     transition: all 0.3s ease-in-out;
   }
 
   .socialLinks3:hover {
-    color: #A91079;
+    color: #03dAC6;
     transition: all 0.3s ease-in-out;
   }
 
   .socialLinks4:hover {
-    color: #A91079;
+    color: #03dAC6;
     transition: all 0.3s ease-in-out;
   }
 
@@ -174,6 +178,7 @@
     height: 1000px;
     z-index: 100;
   }
+
 
 
   @media only screen and (max-width: 500px) {
@@ -187,7 +192,7 @@
 
     }
     .box {
-      background: #A91079;
+      background: #03dAC6;
       width: 5vw;
       height: 50vw;
     }
@@ -196,7 +201,7 @@
       text-align: left;
     }
     .descHeaderText {
-      color: #A91079;
+      color: #03dAC6;
       font-family: 'Lato', sans-serif;
       font-weight: bold;
       font-size: 10vw;
@@ -207,7 +212,6 @@
       margin-bottom: 2vw;
     }
     .descBodyText {
-      color: #A91079;
       font-family: 'Lato', sans-serif;
       font-weight: bold;
       font-size: 4vw;

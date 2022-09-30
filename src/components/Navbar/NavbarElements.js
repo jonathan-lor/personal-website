@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(Link)`
-    color: #A91079;
+    color: #03dAC6;
     font-family: 'Lato', sans-serif;
     justify-self: flex-start;
     cursor: pointer;
@@ -57,7 +57,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #BBBBBB;
+        color: #d3d3d3;
     }
 `;
 
@@ -80,7 +80,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-    color: #BBBBBB;
+    color: #d3d3d3;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     display: flex;
@@ -91,13 +91,13 @@ export const NavLinks = styled(Link)`
     cursor: pointer;
 
     &:hover {
-        color: #A91079;
+        color: #03dAC6;
         transition: all 0.3s ease-in-out;
     }
 `;
 
 export const ResumeLink = styled.div`
-    color: #BBBBBB;
+    color: #d3d3d3;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     display: flex;
@@ -108,7 +108,7 @@ export const ResumeLink = styled.div`
     cursor: pointer;
 
     &:hover {
-        color: #A91079;
+        color: #03dAC6;
         transition: all 0.3s ease-in-out;
     }
 `;

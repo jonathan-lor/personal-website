@@ -18,9 +18,9 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(CgClose)`
-    color: #BBBBBB;
+    color: #d3d3d3;
     &:hover {
-      color: #A91079;
+      color: #03dAC6;
       transition: 0.3s ease-in-out;
     }
 `;
@@ -84,7 +84,7 @@ export const SideBtnWrap = styled.div`
 `
 
 export const SidebarRoute = styled(LinkR)`
-  color: #BBBBBB;
+  color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   border-radius: 50px;
@@ -100,12 +100,12 @@ export const SidebarRoute = styled(LinkR)`
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    color: #A91079;
+    color: #03dAC6;
   }
 `
 
 export const SidebarRouteResume = styled.div`
-  color: #BBBBBB;
+  color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   border-radius: 50px;
@@ -121,14 +121,14 @@ export const SidebarRouteResume = styled.div`
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    color: #A91079;
+    color: #03dAC6;
   }
 `
 
 export const SidebarSocials = styled.div`
   display: flex;
   justify-content: space-between;
-  color: #BBBBBB;
+  color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   border-radius: 50px;
@@ -143,6 +143,6 @@ export const SidebarSocials = styled.div`
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    color: #A91079;
+    color: #03dAC6;
   }
 `

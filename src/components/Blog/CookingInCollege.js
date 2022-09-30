@@ -114,8 +114,8 @@ function CookingInCollege() {
                 <div class="descriptionContainer">
                     <p class="postBodyText alignLeft"></p>
                     <p class="postBodyText alignLeft">Doits Sauce is now a staple in nearly every dish I cook. It’s a quick, cheap, and delicious splash of color on an otherwise monochrome canvas of a meal.</p>
-                    <p class="postBodyText alignLeft">~ Jonathan, creator of Doits Sauce :&#41;</p>
                     <p class="postBodyText alignLeft">Perhaps I’m making too big a deal out of something so insignificant in the grand scheme of things, but I find that the smallest pleasures in life are usually the sweetest.</p>
+                    <p class="postBodyText alignLeft">~ Jonathan, creator of Doits Sauce :&#41;</p>
                 </div>
 
 

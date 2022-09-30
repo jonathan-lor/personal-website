@@ -278,7 +278,7 @@ function Home() {
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >in the spring 2022 semester, i taught React to an awesome group of freshmen and sophomores!</span>
+                        <span class="descBodyText" >during the spring 2022 semester, i taught React to this awesome group of freshmen and sophomores!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>

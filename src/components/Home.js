@@ -158,16 +158,20 @@ function Home() {
                 <div ref={arrowRef}><FiArrowDown size={64} /></div>
             </div>
             <div class="contentContainer">
+
+            <div class="descriptionContainer">
+                <div class="headerDescCursorContainer">
+                        <a class="descHeaderText" href="https://doitcoding.com/">do-it coding</a>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+            </div>
+
                 <div class="subContainer">
                     <div>
                         <img src={DoitKids} />
                     </div>
                 </div>
                 <div class="descriptionContainer">
-                    <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://doitcoding.com/">do-it coding</a>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
                     <div class="headerBodyCursorContainer">
                         <span class="descBodyText" >i founded do-it coding with one of my best friends in may of 2022!</span>
                         <span class="cursorH" ><Cursor /></span>
@@ -205,16 +209,21 @@ function Home() {
 
 
             <div class="contentContainer">
+
+            <div class="descriptionContainer">
+                <div class="headerDescCursorContainer">
+                        <a class="descHeaderText" href="https://impactretreat.com/">impact retreat</a>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+            </div>
+
+
                 <div class="subContainer">
                     <div>
                         <img src={RollCall} />
                     </div>
                 </div>
                 <div class="descriptionContainer">
-                    <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://impactretreat.com/">impact retreat</a>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
                     <div class="headerBodyCursorContainer">
                         <span class="descBodyText" >from 2020-2022, i served as a counselor and co-chair with impact.</span>
                         <span class="cursorH" ><Cursor /></span>
@@ -251,16 +260,20 @@ function Home() {
             </div>
 
             <div class="contentContainer">
+
+            <div class="descriptionContainer">
+                <div class="headerDescCursorContainer">
+                        <a class="descHeaderText" href="http://www.aggiecodingclub.com/">aggie coding club</a>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+            </div>
+
                 <div class="subContainer">
                     <div>
                         <img src={AccPms} />
                     </div>
                 </div>
                 <div class="descriptionContainer">
-                    <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="http://www.aggiecodingclub.com/">aggie coding club</a>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
                     <div class="headerBodyCursorContainer">
                         <span class="descBodyText" >i currently work as a project manager for aggie coding club!</span>
                         <span class="cursorH" ><Cursor /></span>

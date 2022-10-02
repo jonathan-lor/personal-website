@@ -104,16 +104,20 @@ function About() {
             </div>
 
             <div class="contentContainer">
+
+            <div class="descriptionContainer">
+            <div class="headerDescCursorContainer">
+                        <a class="descHeaderText" href="https://doitcoding.com/">doitcoding.com</a>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+            </div>
+
                 <div class="subContainer">
                     <div>
                         <img src={DoitHome} />
                     </div>
                 </div>
                 <div class="descriptionContainer">
-                    <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://doitcoding.com/">doitcoding.com</a>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
                     <div class="headerBodyCursorContainer">
                         <span class="descBodyText" >doitcoding.com was fully designed and built by myself!</span>
                         <span class="cursorH" ><Cursor /></span>
@@ -151,6 +155,14 @@ function About() {
             </div>
 
             <div class="contentContainer">
+
+            <div class="descriptionContainer">
+            <div class="headerDescCursorContainer">
+                        <a class="descHeaderText" href="https://github.com/jonathan-lor/osugame-stats">osu! stats discord bot</a>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+            </div>
+
                 <div class="subContainer">
 
                     <div >
@@ -158,10 +170,6 @@ function About() {
                     </div>
                 </div>
                 <div class="descriptionContainer">
-                    <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://github.com/jonathan-lor/osugame-stats">osu! stats discord bot</a>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
                     <div class="headerBodyCursorContainer">
                         <span class="descBodyText" >osu! is a pretty fun rhythm game with many metrics to track player skill.</span>
                         <span class="cursorH"><Cursor /></span>

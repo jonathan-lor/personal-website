@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="/BlogHome">my blog_</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <ResumeLink><a class="resumeNavLink" href="https://drive.google.com/file/d/1soPRSoyiwzHDCEeytMSqe1-MyTUYGTsI/view?usp=sharing">my resume_</a></ResumeLink>
+                            <ResumeLink><a class="resumeNavLink" href="https://drive.google.com/file/d/11px12mfy_C_3rzhhjqT4UpfvUgCnaum9/view?usp=sharing">my resume_</a></ResumeLink>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

@@ -4,11 +4,22 @@
 
 .postLink {
     color: #03dAC6;
-    font-size: 5vw;
+    font-size: 2vw;
 }
 
 .postHeaderText {
     color: #d3d3d3;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 3vw;
 }
+
+@media only screen and (max-width: 500px) {
+    .postLink {
+        font-size: 4vw;
+    }
+    .postHeaderText {
+        color: #d3d3d3;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+  } 

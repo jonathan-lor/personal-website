@@ -10,6 +10,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { TextPlugin } from "gsap/TextPlugin.js";
 import { FiArrowDown } from 'react-icons/fi';
+import O1 from './images/O(1).webp'
+import ONSquared from './images/O(n^2).webp'
 import DoitHome from './images/doitcoding_site_home.webp'
 import DoitAbout from './images/doitcoding_site_about.webp'
 import DoitCamps from './images/doitcoding_site_camps.webp'
@@ -102,6 +104,56 @@ function About() {
             <div class="arrowDownContainer">
                 <div ref={arrowRef}><FiArrowDown size={64} /></div>
             </div>
+
+            <div class="contentContainer">
+
+                <div class="descriptionContainer">
+                    <div class="headerDescCursorContainer">
+                        <a class="descHeaderText" href="https://github.com/jonathan-lor/runtimed">runtimed</a>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+                </div>
+
+    <div class="subContainer">
+        <div>
+            <img src={O1} />
+        </div>
+    </div>
+    <div class="descriptionContainer">
+        <div class="headerBodyCursorContainer">
+            <span class="descBodyText" >runtimed is a web app (in progress) that approximates the time complexity of a c++ function via a regression model!</span>
+            <span class="cursorH" ><Cursor /></span>
+        </div>
+
+
+        <div class="headerBodyCursorContainer">
+            <span class="descBodyText" >functions can be manually typed into the built-in text editor or pasted in to be analzyed.</span>
+            <span class="cursorH" ><Cursor /></span>
+        </div>
+
+        <div class="subContainer">
+            <div>
+                <img src={ONSquared} />
+            </div>
+        </div>
+
+        <div class="headerBodyCursorContainer">
+            <span class="descBodyText" >the current analysis is done by plugging a series of values into the function and observing how the corresponding output time increases in comparison to common time complexities.</span>
+            <span class="cursorH" ><Cursor /></span>
+        </div>
+
+        <div class="headerBodyCursorContainer">
+            <span class="descBodyText" >check out my github for a more detailed explanation on how it all works!</span>
+            <span class="cursorH" ><Cursor /></span>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
 
             <div class="contentContainer">
 

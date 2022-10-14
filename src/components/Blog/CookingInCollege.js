@@ -41,7 +41,7 @@ function CookingInCollege() {
                 </div>
                 <div class="subContainerBlog">
                     <div class="alignLeft">
-                        <img src={Breakfast} alt='missing' />
+                        <img src={Breakfast} alt='missing' class="contentImg"/>
                         <figcaption>
                             <i>Breakfast on a Saturday morning. This is usually as good as it gets.</i>
 
@@ -89,7 +89,7 @@ function CookingInCollege() {
 
                 <div class="subContainer">
                     <div class="alignLeft">
-                        <img src={Ingredients} alt='missing' />
+                        <img src={Ingredients} alt='missing' class="contentImg"/>
                         <figcaption>
                             <i>The ingredients for my usual dinner, but with that savory Doits Sauce on the side.</i>
                         </figcaption>
@@ -104,7 +104,7 @@ function CookingInCollege() {
 
                 <div class="subContainer">
                     <div class="alignLeft">
-                        <img src={BeefNRice} alt='missing' />
+                        <img src={BeefNRice} alt='missing' class="contentImg"/>
                         <figcaption>
                             <i>The final product.</i>
                         </figcaption>

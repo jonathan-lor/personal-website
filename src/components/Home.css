@@ -5,37 +5,46 @@
 
   .text {
     color: #03dAC6;
+    font-size: 6vw;
   }
 
-  .resumeNavLink {
+  .navLinkOutside {
     text-decoration: none;
     font-weight: bold;
     color: #d3d3d3
   }
 
-  .resumeNavLink:hover {
+  .navLinkOutside:hover {
     color: #03dAC6;
     transition: all 0.3s ease-in-out;
   }
   
-  .div1, .div2, .div3 {
+  .div1, .contentDiv {
     display: flex;
     overflow-x: hidden;
   }
+
+
   
   .div1 {
     background-color: #0e1212;
     height: 75vh;
+    padding: 0;
     align-items: center;
     align-content: space-between;
     justify-content: space-between;
   }
 
+  .headerImgWrapper {
+    align-items: flex-end;
+  }
+
   .arrowDownContainer {
     color: #d3d3d3;
-    //padding-bottom: 5vh;
+
     position: relative;
     height: 25vh;
+    
   }
 
   .header {
@@ -46,6 +55,7 @@
     font-weight: bold;
     font-size: 5vw;
     text-align: left;
+    z-index: 5;
   }
   
   .contentContainer {
@@ -68,7 +78,7 @@
     padding-right: 3vw;
   }
 
-  img {
+  .contentImg {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -77,6 +87,15 @@
     max-width: 60vh;
     max-height: 60vh;
     border-left: 8px solid #03dAC6;
+  }
+
+  .headerImg {
+    object-fit: scale-down;
+    height: 100%;
+    width: 100%;
+    max-width: 80vh;
+    max-height: 80vh;
+    z-index: 4;
   }
 
    .reveal, .reveal1, .reveal2, .reveal3 {
@@ -184,6 +203,8 @@
   @media only screen and (max-width: 500px) {
     .socialContainer {
        margin-right: 4vh;
+       /*display: none;*/
+       
     }
     .contentContainer {
 

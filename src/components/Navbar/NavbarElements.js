@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 
-
+export const NavWrap = styled.nav`
+    position: sticky;
+`;
 
 export const Nav = styled.nav`
     background: linear-gradient(to bottom, #0e1212 70%, rgba(0,0,0,0) 100%);
@@ -27,7 +29,7 @@ export const NavbarContainer = styled.div`
     z-index: 1;
     width: 100%;
     padding: 0 24px;
-    max-width: 1100px;
+    max-width: 1400px;
 `;
 
 export const NavLogo = styled(Link)`
@@ -96,7 +98,7 @@ export const NavLinks = styled(Link)`
     }
 `;
 
-export const ResumeLink = styled.div`
+export const NavLinkOutside = styled.div`
     color: #d3d3d3;
     font-family: 'Lato', sans-serif;
     font-weight: bold;

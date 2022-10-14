@@ -1,8 +1,6 @@
 import React from 'react';
 import './Projects.css';
 import { FaInstagram, FaGithub, FaLinkedinIn, FaSpotify } from 'react-icons/fa';
-import Navbar from './Navbar';
-import Sidebar from "./Sidebar";
 import Cursor from "./Cursor";
 import Footer from "./Footer";
 import { useRef, useEffect, useState } from "react";
@@ -77,9 +75,6 @@ function About() {
 
     return (
         <div>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-
             <div class="div1">
                 <div class="headerAbout">
                     <span class="text" ref={headerTextRef}></span>
@@ -109,41 +104,41 @@ function About() {
 
                 <div class="descriptionContainer">
                     <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://github.com/jonathan-lor/runtimed">runtimed</a>
+                        <a class="descHeaderText" href="https://github.com/jonathan-lor/runtimed">Runtimed</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>
 
     <div class="subContainer">
         <div>
-            <img src={O1} />
+            <img src={O1} class="contentImg"/>
         </div>
     </div>
     <div class="descriptionContainer">
         <div class="headerBodyCursorContainer">
-            <span class="descBodyText" >runtimed is a web app (in progress) that approximates the time complexity of a c++ function via a regression model!</span>
+            <span class="descBodyText" >Runtimed began as a hackathon project, and is a web app (in progress) that approximates the time complexity of a C++ function via a regression model!</span>
             <span class="cursorH" ><Cursor /></span>
         </div>
 
 
         <div class="headerBodyCursorContainer">
-            <span class="descBodyText" >functions can be manually typed into the built-in text editor or pasted in to be analzyed.</span>
+            <span class="descBodyText" >Functions can be manually typed into the built-in text editor or pasted in to be analyzed.</span>
             <span class="cursorH" ><Cursor /></span>
         </div>
 
         <div class="subContainer">
             <div>
-                <img src={ONSquared} />
+                <img src={ONSquared} class="contentImg"/>
             </div>
         </div>
 
         <div class="headerBodyCursorContainer">
-            <span class="descBodyText" >the current analysis is done by plugging a series of values into the function and observing how the corresponding output time increases in comparison to common time complexities.</span>
+            <span class="descBodyText" >The current analysis is done by plugging a series of values into the function and observing how the corresponding output time increases in comparison to common time complexities.</span>
             <span class="cursorH" ><Cursor /></span>
         </div>
 
         <div class="headerBodyCursorContainer">
-            <span class="descBodyText" >check out my github for a more detailed explanation on how it all works!</span>
+            <span class="descBodyText" >Check out my GitHub for a more detailed explanation on how it all works!</span>
             <span class="cursorH" ><Cursor /></span>
         </div>
 
@@ -166,7 +161,7 @@ function About() {
 
                 <div class="subContainer">
                     <div>
-                        <img src={DoitHome} />
+                        <img src={DoitHome} class="contentImg"/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
@@ -177,30 +172,30 @@ function About() {
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >it handles sign ups for our coding camps and 1-on-1 tutoring.</span>
+                        <span class="descBodyText" >It handles sign ups for our coding camps and 1-on-1 tutoring.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
                         <div>
-                            <img src={DoitAbout} />
+                            <img src={DoitAbout} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >besides being the backbone for the company, doitcoding.com was my first time using tailwind css.</span>
+                        <span class="descBodyText" >Besides being the backbone for the company, doitcoding.com was my first time using Tailwind CSS.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
 
                         <div>
-                            <img src={DoitCamps} />
+                            <img src={DoitCamps} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >being able to use css utility classes embedded in html allowed the website's code to reflect its minimalistic design!</span>
+                        <span class="descBodyText" >Being able to use CSS utility classes embedded in the HTML allowed the website's code to reflect its minimalistic design!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>
@@ -210,7 +205,7 @@ function About() {
 
             <div class="descriptionContainer">
             <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://github.com/jonathan-lor/osugame-stats">osu! stats discord bot</a>
+                        <a class="descHeaderText" href="https://github.com/jonathan-lor/osugame-stats">osu! Stats</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
             </div>
@@ -218,7 +213,7 @@ function About() {
                 <div class="subContainer">
 
                     <div >
-                        <img src={OsuBotProfile} />
+                        <img src={OsuBotProfile} class="contentImg"/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
@@ -229,30 +224,30 @@ function About() {
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >the most important metric however, performance points (PP), can only be viewed on the osu! website outside of the game client.</span>
+                        <span class="descBodyText" >The most important metric however, performance points (PP), can only be viewed on the osu! website outside of the game client.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
                         <div >
-                            <img src={OsuBotTop} />
+                            <img src={OsuBotTop} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >the obvious solution was to spend hours turning a 30 second task into a 5 second one!</span>
+                        <span class="descBodyText" >The obvious solution was to spend hours turning a 30 second task into a 5 second one!</span>
                         <span class="cursorH"><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
 
                         <div >
-                            <img src={OsuBotRecent} />
+                            <img src={OsuBotRecent} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >using discord.py and osu!api v2, i made a bot that concisely displays player profile and score info upon request in a discord text channel!</span>
+                        <span class="descBodyText" >Using Discord.py and osu!API v2, I made a bot that concisely displays player profile and score info upon request in a discord text channel!</span>
                         <span class="cursorH"><Cursor /></span>
                     </div>
                 </div>
@@ -261,7 +256,7 @@ function About() {
             <div class="contentContainer">
                 <div class="descriptionContainer">
                     <div class="headerDescCursorContainer">
-                        <a class="descHeaderText"  >check out my github for a few other &#40;possibly unfinished&#41; projects :&#41;</a>
+                        <a class="descHeaderText"  >Check out my GitHub for a few other &#40;possibly unfinished&#41; projects :&#41;</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>

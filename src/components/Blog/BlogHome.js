@@ -71,8 +71,6 @@ function BlogHome() {
 
     return (
         <div>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
 
             <div class="div1">
                 <div class="headerAbout">

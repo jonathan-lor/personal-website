@@ -5,10 +5,11 @@ import { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { TextPlugin } from "gsap/TextPlugin.js";
-import Navbar from './Navbar';
 import Sidebar from "./Sidebar";
 import Cursor from "./Cursor";
 import Footer from "./Footer";
+
+import MeChris from './images/me_and_chris_no_bg.webp'
 
 import DoitKids from './images/doitkid.webp'
 import DoitTeach from './images/doitteaches.webp'
@@ -33,7 +34,6 @@ function Home() {
     }
     //navbar and side menu vars ^^
 
-    const nameRef = useRef();
     const socialsRef = useRef();
     // ref for name text
 
@@ -130,14 +130,18 @@ function Home() {
 
     return (
         <div>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
+
 
             <div class="div1">
-                <div class="header" ref={nameRef}>
+                
+                <div class="header">
                     <span class="text" ref={textRef}></span>
                     <span><Cursor /></span>
                 </div>
+                
+
+                    {/*<img src = {MeChris} class="headerImg"/>*/}
+
                 <div class="socialContainer" ref={socialsRef}>
                     <a href="https://www.linkedin.com/in/jonathanlor/" ref={linkedinRef}>
                         <FaLinkedinIn class="socialLinks1" size={36} />
@@ -153,55 +157,57 @@ function Home() {
                     </a>
                 </div>
             </div>
-
+            
             <div class="arrowDownContainer">
                 <div ref={arrowRef}><FiArrowDown size={64} /></div>
             </div>
+            
+            
             <div class="contentContainer">
 
             <div class="descriptionContainer">
                 <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://doitcoding.com/">do-it coding</a>
+                        <a class="descHeaderText" href="https://doitcoding.com/">Do-It Coding</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
             </div>
 
                 <div class="subContainer">
                     <div>
-                        <img src={DoitKids} />
+                        <img src={DoitKids} class="contentImg"/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >i founded do-it coding with one of my best friends in may of 2022!</span>
+                        <span class="descBodyText" >I founded Do-It coding with one of my best friends in May of 2022!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >born out of a desire to teach my little brother how to code, do-it coding started as a coding bootcamp operating out of a local ice cream shop.</span>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
-
-                    <div class="subContainer">
-                        <div>
-                            <img src={DoitTeach} />
-                        </div>
-                    </div>
-
-                    <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >in our first coding bootcamp, we taught scratch to 6 elementary-aged kids in preparation for a lego robotics season in the fall.</span>
+                        <span class="descBodyText" >Born out of a desire to teach my little brother how to code, Do-It coding started as a coding bootcamp operating out of a local ice cream shop.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
                         <div>
-                            <img src={DoitNews} />
+                            <img src={DoitTeach} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >by the end of summer 2022 however, we had camps running every week, with 1-on-1 tutoring being offered as well!</span>
+                        <span class="descBodyText" >In our first coding bootcamp, we taught scratch to 6 elementary-aged kids in preparation for a Lego Robotics season in the fall.</span>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+
+                    <div class="subContainer">
+                        <div>
+                            <img src={DoitNews} class="contentImg"/>
+                        </div>
+                    </div>
+
+                    <div class="headerBodyCursorContainer">
+                        <span class="descBodyText" >By the end of summer 2022 however, we had camps running every week, with 1-on-1 tutoring being offered as well!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>
@@ -212,7 +218,7 @@ function Home() {
 
             <div class="descriptionContainer">
                 <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="https://impactretreat.com/">impact retreat</a>
+                        <a class="descHeaderText" href="https://impactretreat.com/">Impact Retreat</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
             </div>
@@ -220,40 +226,40 @@ function Home() {
 
                 <div class="subContainer">
                     <div>
-                        <img src={RollCall} />
+                        <img src={RollCall} class="contentImg"/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >from 2020-2022, i served as a counselor and co-chair with impact.</span>
+                        <span class="descBodyText" >From 2020-2022, I served as a counselor and co-chair with Impact.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >impact is a ministry dedicated to connecting incoming texas a&m students to churches and strong christian community in bryan/college station.</span>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
-
-                    <div class="subContainer">
-                        <div>
-                            <img src={BSimStaff} />
-                        </div>
-                    </div>
-
-                    <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >as a counselor, i worked alongside my peers to guide and support the incoming students at and beyond retreat.</span>
+                        <span class="descBodyText" >Impact is a ministry dedicated to connecting incoming Texas A&M students to churches and strong christian community in Bryan/College Station.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
                         <div>
-                            <img src={BSimFreshmen} />
+                            <img src={BSimStaff} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >as a co-chair, i trained and equipped counselors for retreat during the preceding spring semester!</span>
+                        <span class="descBodyText" >As a counselor, I worked alongside my peers to guide and support the incoming students at and beyond retreat.</span>
+                        <span class="cursorH" ><Cursor /></span>
+                    </div>
+
+                    <div class="subContainer">
+                        <div>
+                            <img src={BSimFreshmen} class="contentImg"/>
+                        </div>
+                    </div>
+
+                    <div class="headerBodyCursorContainer">
+                        <span class="descBodyText" >As a co-chair, I trained and equipped counselors for retreat during the preceding spring semester!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>
@@ -263,35 +269,35 @@ function Home() {
 
             <div class="descriptionContainer">
                 <div class="headerDescCursorContainer">
-                        <a class="descHeaderText" href="http://www.aggiecodingclub.com/">aggie coding club</a>
+                        <a class="descHeaderText" href="http://www.aggiecodingclub.com/">Aggie Coding Club</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
             </div>
 
                 <div class="subContainer">
                     <div>
-                        <img src={AccPms} />
+                        <img src={AccPms} class="contentImg"/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >i currently work as a project manager for aggie coding club!</span>
+                        <span class="descBodyText" >I currently work as a project manager for Aggie Coding Club!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >right now, i'm teaching 40+ students how to build an ios application using swift/swiftui.</span>
+                        <span class="descBodyText" >Right now, i'm teaching 40+ students how to build an iOS application using Swift/SwiftUI.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
                     <div class="subContainer">
                         <div>
-                            <img src={AccPic} />
+                            <img src={AccPic} class="contentImg"/>
                         </div>
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >during the spring 2022 semester, i taught React to this awesome group of freshmen and sophomores!</span>
+                        <span class="descBodyText" >During the spring 2022 semester, I taught React to this awesome group of freshmen and sophomores!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>

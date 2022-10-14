@@ -1,6 +1,7 @@
 import React from 'react'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, ResumeLink, /*NavBtnLink*/ } from './NavbarElements'
+import { NavWrap, Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavLinkOutside, /*NavBtnLink*/ } from './NavbarElements'
 import { BsThreeDotsVertical } from 'react-icons/bs';
+import { FaInstagram, FaGithub, FaLinkedinIn, FaSpotify } from 'react-icons/fa'
 
 const Navbar = ({ toggle }) => {
     return (
@@ -24,7 +25,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="/BlogHome">my blog_</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <ResumeLink><a class="resumeNavLink" href="https://drive.google.com/file/d/1IEwsDmxnFO8z5jnognsR46gh6j0djjdH/view?usp=sharing">my resume_</a></ResumeLink>
+                            <NavLinkOutside><a class="navLinkOutside" href="https://drive.google.com/file/d/1IEwsDmxnFO8z5jnognsR46gh6j0djjdH/view?usp=sharing">my resume_</a></NavLinkOutside>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

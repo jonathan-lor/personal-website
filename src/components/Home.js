@@ -1,15 +1,14 @@
 import { FaInstagram, FaGithub, FaLinkedinIn, FaSpotify } from 'react-icons/fa';
 import { FiArrowDown } from 'react-icons/fi';
 import './Home.css';
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import { TextPlugin } from "gsap/TextPlugin.js";
-import Sidebar from "./Sidebar";
 import Cursor from "./Cursor";
 import Footer from "./Footer";
 
-import MeChris from './images/me_and_chris_no_bg.webp'
+//import MeChris from './images/me_and_chris_no_bg.webp'
 
 import DoitKids from './images/doitkid.webp'
 import DoitTeach from './images/doitteaches.webp'
@@ -26,13 +25,6 @@ gsap.registerPlugin(TextPlugin)
 
 
 function Home() {
-
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-    //navbar and side menu vars ^^
 
     const socialsRef = useRef();
     // ref for name text
@@ -174,7 +166,7 @@ function Home() {
 
                 <div class="subContainer">
                     <div>
-                        <img src={DoitKids} class="contentImg"/>
+                        <img src={DoitKids} class="contentImg" alt="Jonathan Lor with Do-It Coding's first students."/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
@@ -191,7 +183,7 @@ function Home() {
 
                     <div class="subContainer">
                         <div>
-                            <img src={DoitTeach} class="contentImg"/>
+                            <img src={DoitTeach} class="contentImg" alt="Jonathan Lor teaching a Do-It Coding student."/>
                         </div>
                     </div>
 
@@ -202,7 +194,7 @@ function Home() {
 
                     <div class="subContainer">
                         <div>
-                            <img src={DoitNews} class="contentImg"/>
+                            <img src={DoitNews} class="contentImg" alt="Jonathan Lor and Do-It Coding featured in a local newspaper article."/>
                         </div>
                     </div>
 
@@ -226,7 +218,7 @@ function Home() {
 
                 <div class="subContainer">
                     <div>
-                        <img src={RollCall} class="contentImg"/>
+                        <img src={RollCall} class="contentImg" alt="Jonathan Lor speaking on stage."/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
@@ -243,7 +235,7 @@ function Home() {
 
                     <div class="subContainer">
                         <div>
-                            <img src={BSimStaff} class="contentImg"/>
+                            <img src={BSimStaff} class="contentImg" alt="Jonathan Lor with fellow Impact staff members."/>
                         </div>
                     </div>
 
@@ -254,7 +246,7 @@ function Home() {
 
                     <div class="subContainer">
                         <div>
-                            <img src={BSimFreshmen} class="contentImg"/>
+                            <img src={BSimFreshmen} class="contentImg" alt="Jonathan Lor with fellow Impact staff and incoming freshmen."/>
                         </div>
                     </div>
 
@@ -276,7 +268,7 @@ function Home() {
 
                 <div class="subContainer">
                     <div>
-                        <img src={AccPms} class="contentImg"/>
+                        <img src={AccPms} class="contentImg" alt="Jonathan Lor and fellow Aggie Coding Club Project managers."/>
                     </div>
                 </div>
                 <div class="descriptionContainer">
@@ -292,7 +284,7 @@ function Home() {
 
                     <div class="subContainer">
                         <div>
-                            <img src={AccPic} class="contentImg"/>
+                            <img src={AccPic} class="contentImg" alt="Jonathan Lor with his Spring 2022 Aggie Coding Club project members."/>
                         </div>
                     </div>
 

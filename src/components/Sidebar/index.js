@@ -13,7 +13,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarRoute to="/">home_</SidebarRoute>
                     <SidebarRoute to="/Projects">my projects_</SidebarRoute>
                     <SidebarRoute to="/BlogHome">my blog_</SidebarRoute>
-                    <SidebarRouteResume ><a class="navLinkOutside" href="https://drive.google.com/file/d/1pMWwfmzREfn2A6J0vQWR0TYKnao0f71l/view?usp=sharing">my resume_</a></SidebarRouteResume>
+                    {/*
+                    <SidebarRouteResume ><a class="navLinkOutside" href="">my resume_</a></SidebarRouteResume>
+                    */}
                     <SidebarSocials>
                         <a href="https://www.linkedin.com/in/jonathanlor/">
                             <FaLinkedinIn class="socialLinks1" size={24} />

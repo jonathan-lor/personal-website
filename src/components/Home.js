@@ -42,13 +42,12 @@ function Home() {
 
     const words = [
         "hi, i'm jonathan lor!",
-        "i'm a cs student @ texas a&m,",
-        "an aspiring web developer,",
+        "i'm a student @ texas a&m,",
+        "an aspiring fullstack developer,",
         "an austinite,",
         "an ex tiktok micro-celebrity,",
         "a 'gym bro',",
         "a strategy game savant,",
-        "a huuuge worship music fan,",
         "a self-proclaimed pro chef,",
         "and lots more!",
         "welcome to my website! :)"
@@ -171,13 +170,13 @@ function Home() {
                 </div>
                 <div class="descriptionContainer">
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >I founded Do-It coding with one of my best friends in May of 2022!</span>
+                        <span class="descBodyText" >I founded Do-It Coding with one of my best friends in May of 2022!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >Born out of a desire to teach my little brother how to code, Do-It coding started as a coding bootcamp operating out of a local ice cream shop.</span>
+                        <span class="descBodyText" >Born out of a desire to teach my little brother how to code, Do-It Coding started as a coding bootcamp operating out of a local ice cream shop.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 

@@ -24,9 +24,11 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="/BlogHome">my blog_</NavLinks>
                         </NavItem>
+                        {/*
                         <NavItem>
-                            <NavLinkOutside><a class="navLinkOutside" href="https://drive.google.com/file/d/1pMWwfmzREfn2A6J0vQWR0TYKnao0f71l/view?usp=sharing">my resume_</a></NavLinkOutside>
+                            <NavLinkOutside><a class="navLinkOutside" href="">my resume_</a></NavLinkOutside>
                         </NavItem>
+                        */}
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

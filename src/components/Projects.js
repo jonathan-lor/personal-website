@@ -116,7 +116,7 @@ function About() {
     </div>
     <div class="descriptionContainer">
         <div class="headerBodyCursorContainer">
-            <span class="descBodyText" >Runtimed began as a hackathon project, and is a web app (in progress) that approximates the time complexity of a C++ function via a regression model!</span>
+            <span class="descBodyText" >Runtimed began as a project for HowdyHack 2022, and is a web app designed to approximate the time complexity of a C++ function via a regression model.</span>
             <span class="cursorH" ><Cursor /></span>
         </div>
 
@@ -166,13 +166,13 @@ function About() {
                 </div>
                 <div class="descriptionContainer">
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >doitcoding.com was fully designed and built by myself!</span>
+                        <span class="descBodyText" >doitcoding.com is a simple website for all things Do-It Coding.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >It handles sign ups for our coding camps and 1-on-1 tutoring.</span>
+                        <span class="descBodyText" >Currently, it acts as a hub for coding camp and tutoring signups.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
@@ -183,21 +183,17 @@ function About() {
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >Besides being the backbone for the company, doitcoding.com was my first time using Tailwind CSS.</span>
+                        <span class="descBodyText" >This project also doubled as my first real attempt at making a visually pleasing frontend!</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
-
+                    {/*
                     <div class="subContainer">
 
                         <div>
                             <img src={DoitCamps} class="contentImg"/>
                         </div>
                     </div>
-
-                    <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >Being able to use CSS utility classes embedded in the HTML allowed the website's code to reflect its minimalistic design!</span>
-                        <span class="cursorH" ><Cursor /></span>
-                    </div>
+                    */}
                 </div>
             </div>
 
@@ -235,7 +231,7 @@ function About() {
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >The obvious solution was to spend hours turning a 30 second task into a 5 second one!</span>
+                        <span class="descBodyText" >The obvious solution was to spend hours turning a 30 second task into a 5 second one :)</span>
                         <span class="cursorH"><Cursor /></span>
                     </div>
 
@@ -247,7 +243,7 @@ function About() {
                     </div>
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >Using Discord.py and osu!API v2, I made a bot that concisely displays player profile and score info upon request in a discord text channel!</span>
+                        <span class="descBodyText" >Using Discord.py and osu!API v2, I made a bot that concisely displays player profile and score info upon request in a discord text channel.</span>
                         <span class="cursorH"><Cursor /></span>
                     </div>
                 </div>
@@ -256,7 +252,7 @@ function About() {
             <div class="contentContainer">
                 <div class="descriptionContainer">
                     <div class="headerDescCursorContainer">
-                        <a class="descHeaderText"  >Check out my GitHub for a few other &#40;possibly unfinished&#41; projects :&#41;</a>
+                        <a class="descHeaderText"  >Check out my GitHub for a few other &#40;possibly unfinished&#41; projects!</a>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
                 </div>

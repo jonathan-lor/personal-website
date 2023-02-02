@@ -27,10 +27,6 @@ function CookingInCollege() {
 
     return (
         <div>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-
-
             <div class="contentContainerBlog">
                 <div class="descriptionContainer">
                     <h1 class="alignLeft">Cooking in College, and the Soon-to-be-Famous "Doits Sauce"</h1>

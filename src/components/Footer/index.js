@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div>
             <div class="footer">
-                <div>© 2022 Jonathan Lor</div>
+                <div>© 2023 Jonathan Lor</div>
             </div>
         </div>
     )

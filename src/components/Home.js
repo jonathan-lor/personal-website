@@ -228,7 +228,7 @@ function Home() {
 
 
                     <div class="headerBodyCursorContainer">
-                        <span class="descBodyText" >Impact is a ministry dedicated to connecting incoming Texas A&M students to churches and strong christian community in Bryan/College Station.</span>
+                        <span class="descBodyText" >Impact is dedicated to connecting incoming Texas A&M students with a strong and supportive community in Bryan/College Station.</span>
                         <span class="cursorH" ><Cursor /></span>
                     </div>
 
